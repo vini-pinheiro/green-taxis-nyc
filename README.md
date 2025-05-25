@@ -7,7 +7,7 @@ Este repositório contém o trabalho final da disciplina de Visualização de In
 ## Integrantes do Grupo
 
 * **[Nome Completo do Aluno 1]** - [Email]
-* **[Nome Completo do Aluno 2]** - [Email]
+* **Guilherme Moura Sartorio** - guilhermemoura@id.uff.br
 * **Vinicius Rocha Pinheiro** - viniciuspinheiro@id.uff.br
 
 ---
