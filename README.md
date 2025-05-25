@@ -48,39 +48,6 @@ trabalho-vis/
 
 ## Como Executar o Projeto Localmente
 
-Para visualizar o projeto em seu navegador, siga os passos abaixo:
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone *link*
-    cd curso-vis
-    ```
-    *(**Nota:** Se você clonou este repositório diretamente, certifique-se de que a estrutura de pastas está correta ou ajuste o caminho do `cd` para a pasta do seu trabalho.)*
-
-2.  **Navegue até a pasta do trabalho (se não estiver já nela):**
-    ```bash
-    cd trabalho-vis # Ajuste conforme a sua estrutura local
-    ```
-
-3.  **Abra o arquivo `index.html` em um navegador web.**
-    Você pode fazer isso clicando duas vezes no arquivo `index.html` no seu explorador de arquivos, ou usando um comando no terminal:
-    ```bash
-    # No macOS/Linux (pode variar dependendo do seu sistema)
-    open index.html
-
-    # No Windows (pode variar)
-    start index.html
-    ```
-    **Alternativamente, e RECOMENDADO para evitar problemas de CORS:** Use um servidor web local. Se você tem Python instalado, pode iniciar um servidor simples:
-    ```bash
-    python -m http.server 8000
-    ```
-    Então, abra seu navegador e acesse `http://localhost:8000`.
-
----
-
-## Como Executar o Projeto Localmente
-
 Para configurar e visualizar o projeto em seu ambiente de desenvolvimento, siga os passos abaixo:
 
 1.  **Pré-requisito: Instalar Node.js**
@@ -88,8 +55,8 @@ Para configurar e visualizar o projeto em seu ambiente de desenvolvimento, siga 
 
 2.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/
-    cd curso-vis
+    git clone https://github.com/vini-pinheiro/green-taxis-nyc.git
+    cd trabalho-vis
     ```
     *(**Nota:** Certifique-se de que a estrutura de pastas está correta após o clone ou ajuste o caminho do `cd` para a pasta raiz do seu trabalho, que contém o `package.json`.)*
 
@@ -113,15 +80,6 @@ Para configurar e visualizar o projeto em seu ambiente de desenvolvimento, siga 
 Conforme as instruções do trabalho, os dados dos Green Taxis são carregados utilizando **@duckdb/duckdb-wasm**. Devido ao grande volume de dados, optamos por carregar apenas os **seis primeiros meses do ano de 2023** para fins de análise e desenvolvimento local.
 
 A lógica de carregamento e processamento dos dados está implementada dentro dos arquivos JavaScript (`src/*.js`) e utiliza as capacidades do DuckDB para consulta eficiente dos datasets diretamente no navegador.
-
----
-
-## Arquivos Entregues
-
-Este trabalho foi entregue no Google Classroom contendo:
-
-1.  **`Análise_Visualizacao_Taxis_NYC.pdf`**: Um arquivo PDF detalhando as respostas para as perguntas propostas, incluindo as visualizações geradas (como imagens), as discussões sobre as escolhas de visualização e as análises das informações obtidas.
-2.  **`codigo_trabalho_vis.zip`**: Um arquivo ZIP contendo o código-fonte utilizado para a construção das visualizações. Este arquivo inclui a pasta `src` completa, e os arquivos `index.html` e `index.css`.
 
 ---
 
