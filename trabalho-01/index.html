@@ -3,24 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Carregamento dos Dados</title>
+    <title>Análise de Corridas de Táxi Verde NYC</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <div class="main-container">
-        <svg>
-        </svg>
-        <div class="buttom-container">
-            <button id="loadBtn">Load Chart</button>
-            <select id="colorDrop">
-                <option value="0">Total Amount</option>
-                <option value="1">Payment Type</option>
-            </select>
+        <h2>Pergunta A: Padrão de Corridas (Dias de Semana vs. Fim de Semana)</h2>
+        <svg id="chartA"></svg>
 
-            <button id="clearBtn">Clear Chart</button>
+        <h2>Pergunta B: Média de Gorjetas por Hora do Dia</h2>
+        <svg id="chartB"></svg>
+
         </div>
-    </div>
 
     <script type="module" src="src/main.js"></script>
 </body>

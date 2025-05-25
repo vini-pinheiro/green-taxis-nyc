@@ -45,3 +45,94 @@ circle {
 button {
     margin: 10px;
 }
+
+* Estilos para a linha do gráfico de linha */
+.line {
+    fill: none;
+    /* stroke: steelblue; // A cor será definida pela escala de cores agora */
+    stroke-width: 2px;
+}
+
+/* Estilos para os pontos nas linhas */
+.dot {
+    opacity: 0.8;
+}
+
+/* Estilos para os eixos e seus rótulos */
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #888;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 10px;
+    fill: #555;
+}
+
+/* Tamanhos fixos para os SVGs no HTML */
+svg {
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: #bfbfbf solid 1px;
+    height: 400px; /* Mantém a altura */
+    width: 800px;  /* Mantém a largura */
+}
+
+/* src/index.css */
+/* ... seu CSS existente ... */
+
+/* Estilos para a linha do gráfico de linha */
+.line {
+    fill: none;
+    /* stroke: steelblue; // A cor será definida pela escala de cores agora */
+    stroke-width: 2px;
+}
+
+/* Estilos para os pontos nas linhas */
+.dot {
+    opacity: 0.8;
+}
+
+/* Estilos para os eixos e seus rótulos */
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #888;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 10px;
+    fill: #555;
+}
+
+/* Tamanhos fixos para os SVGs no HTML */
+svg {
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: #bfbfbf solid 1px;
+    height: 400px; /* Mantém a altura */
+    width: 800px;  /* Mantém a largura */
+}
+
+.main-container {
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    background-color: #efefef;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
