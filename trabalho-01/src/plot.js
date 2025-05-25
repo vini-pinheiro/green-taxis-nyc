@@ -51,6 +51,7 @@ export async function createLineChart(data, targetSelector, valueAccessor, label
 
     // Eixos
     const xAxis = d3.axisBottom(xScale)
+        .tickValues(Array.from({length:24},(v,i)=>i))
         .tickFormat(d => `${d}h`);
 
     svg.append("g")
