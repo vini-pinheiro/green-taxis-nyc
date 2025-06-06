@@ -6,7 +6,6 @@ export function clearChart() {
     d3.selectAll('svg text').remove();
 }
 
-// Função createLineChart (copie exatamente a versão que eu forneci anteriormente)
 export async function createLineChart(data, targetSelector, valueAccessor, labelX, labelY, title, groupAccessor = null) {
     const margin = { top: 40, right: 30, bottom: 60, left: 70 };
     const svgElement = d3.select(targetSelector);
