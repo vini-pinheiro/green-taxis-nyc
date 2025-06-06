@@ -31,7 +31,7 @@ window.onload = async () => {
         total_trips: Number(d.total_trips)
     }));
     console.log("Dados para Pergunta A (convertidos):", dataA);
-    createLineChart(dataA, "#chartA", "total_trips", "Hora do Dia", "Total de Corridas", "Padrão de Corridas: Dias de Semana vs. Fim de Semana", "day_type");
+    createLineChart(dataA, "#chartA", "total_trips", "Hora do Dia", "Total de Corridas", "Total de Corridas: Dias de Semana vs. Fim de Semana", "day_type");
 
 
     // --- Pergunta B ---
